@@ -8,6 +8,7 @@ public class Pessoa {
 	private String sobrenome;
 	private int idade;
 	private Date dataNascimento;
+	private  String teste;
 	
 	public Date getDataNascimento() {
 		return dataNascimento;
@@ -34,6 +35,7 @@ public class Pessoa {
 		this.sobrenome = sobrenome;
 	}
 	
-	
+
+	}
 
 }
