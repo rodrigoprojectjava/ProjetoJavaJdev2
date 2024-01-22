@@ -9,7 +9,15 @@ public class Pessoa {
 	private int idade;
 	private Date dataNascimento;
 	private  String teste;
+	private Date dataDeCadastro;
 	
+	
+	public Date getDataDeCadastro() {
+		return dataDeCadastro;
+	}
+	public void setDataDeCadastro(Date dataDeCadastro) {
+		this.dataDeCadastro = dataDeCadastro;
+	}
 	public Date getDataNascimento() {
 		return dataNascimento;
 	}
