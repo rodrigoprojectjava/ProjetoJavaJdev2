@@ -8,10 +8,17 @@ public class Pessoa {
 	private String sobrenome;
 	private int idade;
 	private Date dataNascimento;
-	private  String teste;
+	private  String endereco;
 	private Date dataDeCadastro;
 	
 	
+	
+	public String getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
 	public Date getDataDeCadastro() {
 		return dataDeCadastro;
 	}
